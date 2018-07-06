@@ -9,21 +9,19 @@
 </head>
 <body>
     <div class="main">
-     <div style="background-color: white;padding: 20px 20px 20px 20px">
+     <div class="link-body">
          <h1 class="title">密码<strong>登录</strong></h1>
          <form class="form">
              <div class="form-item">
-                 <label for="user-name">用户名</label>
-                 <input name="user-name" type="text" placeholder="用户名"/>
+                 <label for="user-name" class="user-name">用户名</label>
+                 <input name="user-name" class="user-name-input" type="text" placeholder="用户名"/>
              </div>
              <div class="form-item">
-                 <label>密码</label>
-                 <input name="user-pass" type="password" placeholder="密码" />
-                 <a href="#" class="rember-pass">忘记密码</a>
+                 <label class="pass">密码</label>
+                 <input class="user-pass" name="user-pass" type="password" placeholder="密码" />
+                 <a href="#" class="rember-pass">忘记密码</a> 
              </div>
-             <center>
              <button class="btn-submit" type="submit">登录</button>
-            </center>
              <div class="link-footer">
                  <a class="link-login" href="#">验证码登录</a>
                  <a class="link-register" href="#">注册</a>
