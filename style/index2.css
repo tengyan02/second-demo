@@ -104,10 +104,13 @@ input::-webkit-input-placeholder
       transform: none;
   }
   .form-item label{
-    width: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
   }
   .form-item input{
-     width: 95%; 
+     padding-left: 50px;
+     box-sizing: border-box;
   }
 }
 
